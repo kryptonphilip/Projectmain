@@ -125,3 +125,75 @@ body {
   height: 50px;
   cursor: pointer;
 }
+.header2 {
+  padding: 7rem;
+}
+.subtitle1 {
+  font-size: 1.2rem;
+  margin-top: 1.1rem;
+  margin-bottom: 1.3rem;
+  line-height: 1.6rem;
+}
+.schedule {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.schedule_first_cont {
+  /* background-color: red; */
+  /* height: 15rem; */
+  width: 90%;
+  list-style: none;
+}
+.schedule_second_cont {
+  /* background-color: #2a67f4; */
+  /* height: 15rem; */
+  width: 90%;
+  list-style: none;
+}
+.schedule_third_cont {
+  /* background-color: yellow; */
+  /* height: 15rem; */
+  width: 90%;
+  list-style: none;
+}
+.schedule_first_cont li {
+  height: 5rem;
+  border: 2px solid blue;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.schedule_first_cont li:first-child {
+  background-color: #2a67f4;
+  height: 3rem;
+  border: none;
+  color: #fff;
+}
+.schedule_second_cont li {
+  height: 5rem;
+  border: 2px solid orange;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.schedule_second_cont li:first-child{
+   background-color: orange;
+  height: 3rem;
+  border: none;
+  color: #fff;
+}
+.schedule_third_cont li {
+  height: 5rem;
+  border: 2px solid purple;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.schedule_third_cont li:first-child{
+   background-color: purple;
+  height: 3rem;
+  border: none;
+  color: #fff;
+}
