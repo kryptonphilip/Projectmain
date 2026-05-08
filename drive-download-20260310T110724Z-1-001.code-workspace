@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../../Downloads/drive-download-20260310T110724Z-1-001"
+	},
+	{
+		"path": "../../Work6_JS"
+	},
+	{
+		"path": "../PROJECT1"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PROJECT1"
+  }
+}
