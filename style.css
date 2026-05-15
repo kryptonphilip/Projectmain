@@ -47,6 +47,10 @@ body {
 .cta_cont {
   /* justify-self: center; */
 }
+.menu_icon {
+  width: 5rem;
+  display: none;
+}
 .main_page {
   display: grid;
 }
@@ -310,4 +314,71 @@ footer {
 }
 .footer-bottom a:hover {
   color: white;
+}
+
+@media (max-width: 75em) {
+  .nav_area {
+    display: none;
+  }
+  .page_header {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cta_cont {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: right;
+    padding-right: 5rem;
+  }
+
+  .main_page .title_top {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 59em) {
+  .title_des {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .page_header h1 {
+    margin-left: 0;
+    padding-left: 2rem;
+  }
+
+  .cta_cont {
+    padding-right: 2rem;
+    display: none;
+  }
+  .menu_icon {
+    display: inline-block;
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: right;
+    padding-right: 2rem;
+  }
+  .schedule {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+  .activity {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    justify-items: center;
+  }
+  .header2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .title_des {
+    padding: 0 2rem;
+  }
+  footer {
+    padding: 10rem 2rem;
+  }
+  .main_page .title_top {
+    font-size: 40px;
+  }
+}
+@media (max-width: 25.5em) {
 }
